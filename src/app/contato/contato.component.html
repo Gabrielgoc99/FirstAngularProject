@@ -1,1 +1,77 @@
-<p>contato works!</p>
+<div class="jumbotron jumbotron-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <h1 class="h1"> <img src="assets/logo.jpg" height="100" width="100">
+          Contato: <br>
+          <small>Envie aqui sua mensagem para GoC99</small></h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="well well-sm">
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">
+                  Nome</label>
+                <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required="required" />
+              </div>
+              <div class="form-group">
+                <label for="email">
+                  Email</label>
+                <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                  <input type="email" class="form-control" id="email" placeholder="Digite seu email" required="required" /></div>
+              </div>
+              <div class="form-group">
+                <label for="subject">
+                  Assunto</label>
+                <select id="subject" name="subject" class="form-control" required="required">
+                  <option value="na" selected="">Escolha uma opção:</option>
+                  <option value="service">Informações/Sugestões</option>
+                  <option value="suggestions">Reclamações</option>
+                  <option value="product">Suporte Técnico</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">
+                  Mensagem</label>
+                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                          placeholder="Digite aqui sua mensagem"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <form>
+        <legend><span class="glyphicon glyphicon-globe"></span> Nosso Escritório:</legend>
+        <address>
+          <strong>GoC99, Inc</strong><br>
+          Internal Address Blocked<br>
+          Juiz de Fora-MG, Brazil<br>
+          <abbr title="Telefone">
+            TEL:</abbr>
+          +55 (32) 5456-7890
+        </address>
+        <address>
+          <strong>GitHub</strong><br>
+          <a href="mailto:#">github.com/gabrielgoc99</a>
+        </address>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.jumbotron {
+  background: #323232;
+  color: #FFF;
+  border-radius: 0px;
+  text-align-all: center;
+  max-width: available;
+}
+.jumbotron-sm {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  position: center;
+  padding-bottom: 150px;
+  width: 100%;
+
+}
+.jumbotron small {
+  color: #FFF;
+}
+.h1 small {
+  font-size: 24px;
+  padding-top: 500px;
+}
+
+.col-md-12{
+  padding-bottom: 20px;
+}
+
+.container {
+  padding-top: 50px;
+  background: black !important;
+  max-width: available;
+
+
+
+
+}
+
